@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B434FC252A49C7AE00DFD52A /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B434FC242A49C7AE00DFD52A /* CardComponent.swift */; };
 		B4672B202A13C2DE0054B83F /* SwiftUITutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4672B1F2A13C2DE0054B83F /* SwiftUITutorialsApp.swift */; };
 		B4672B222A13C2DE0054B83F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4672B212A13C2DE0054B83F /* ContentView.swift */; };
 		B4672B242A13C2DF0054B83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4672B232A13C2DF0054B83F /* Assets.xcassets */; };
 		B4672B282A13C2DF0054B83F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4672B272A13C2DF0054B83F /* Preview Assets.xcassets */; };
+		B4CA4C462A48653D00F3583B /* GeometryReadermidx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CA4C452A48653D00F3583B /* GeometryReadermidx.swift */; };
+		B4F8ED652A51CB4900AC8B75 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F8ED642A51CB4900AC8B75 /* MultipleSheets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B434FC242A49C7AE00DFD52A /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
 		B4672B1C2A13C2DE0054B83F /* SwiftUITutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4672B1F2A13C2DE0054B83F /* SwiftUITutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialsApp.swift; sourceTree = "<group>"; };
 		B4672B212A13C2DE0054B83F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4672B232A13C2DF0054B83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4672B252A13C2DF0054B83F /* SwiftUITutorials.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUITutorials.entitlements; sourceTree = "<group>"; };
 		B4672B272A13C2DF0054B83F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4CA4C452A48653D00F3583B /* GeometryReadermidx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReadermidx.swift; sourceTree = "<group>"; };
+		B4F8ED642A51CB4900AC8B75 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				B4672B1F2A13C2DE0054B83F /* SwiftUITutorialsApp.swift */,
 				B4672B212A13C2DE0054B83F /* ContentView.swift */,
+				B4CA4C452A48653D00F3583B /* GeometryReadermidx.swift */,
+				B434FC242A49C7AE00DFD52A /* CardComponent.swift */,
+				B4F8ED642A51CB4900AC8B75 /* MultipleSheets.swift */,
 				B4672B232A13C2DF0054B83F /* Assets.xcassets */,
 				B4672B252A13C2DF0054B83F /* SwiftUITutorials.entitlements */,
 				B4672B262A13C2DF0054B83F /* Preview Content */,
@@ -140,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4672B222A13C2DE0054B83F /* ContentView.swift in Sources */,
+				B4CA4C462A48653D00F3583B /* GeometryReadermidx.swift in Sources */,
 				B4672B202A13C2DE0054B83F /* SwiftUITutorialsApp.swift in Sources */,
+				B4F8ED652A51CB4900AC8B75 /* MultipleSheets.swift in Sources */,
+				B434FC252A49C7AE00DFD52A /* CardComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
