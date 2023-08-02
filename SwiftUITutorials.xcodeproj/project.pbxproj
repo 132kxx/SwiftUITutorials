@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B425A34D2A7A8E2900D59523 /* Pomodoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B425A34C2A7A8E2900D59523 /* Pomodoro.swift */; };
+		B425A34F2A7A93D200D59523 /* FastingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B425A34E2A7A93D200D59523 /* FastingManager.swift */; };
 		B434FC252A49C7AE00DFD52A /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B434FC242A49C7AE00DFD52A /* CardComponent.swift */; };
-		B45A01442A664AB2001CBCFB /* Pomodoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45A01432A664AB2001CBCFB /* Pomodoro.swift */; };
 		B4672B202A13C2DE0054B83F /* SwiftUITutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4672B1F2A13C2DE0054B83F /* SwiftUITutorialsApp.swift */; };
 		B4672B222A13C2DE0054B83F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4672B212A13C2DE0054B83F /* ContentView.swift */; };
 		B4672B242A13C2DF0054B83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4672B232A13C2DF0054B83F /* Assets.xcassets */; };
@@ -24,8 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B425A34C2A7A8E2900D59523 /* Pomodoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomodoro.swift; sourceTree = "<group>"; };
+		B425A34E2A7A93D200D59523 /* FastingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingManager.swift; sourceTree = "<group>"; };
 		B434FC242A49C7AE00DFD52A /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
-		B45A01432A664AB2001CBCFB /* Pomodoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomodoro.swift; sourceTree = "<group>"; };
 		B4672B1C2A13C2DE0054B83F /* SwiftUITutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4672B1F2A13C2DE0054B83F /* SwiftUITutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialsApp.swift; sourceTree = "<group>"; };
 		B4672B212A13C2DE0054B83F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B425A3502A7A947E00D59523 /* Pomodoro */ = {
+			isa = PBXGroup;
+			children = (
+				B425A34C2A7A8E2900D59523 /* Pomodoro.swift */,
+				B425A34E2A7A93D200D59523 /* FastingManager.swift */,
+			);
+			path = Pomodoro;
+			sourceTree = "<group>";
+		};
 		B4672B132A13C2DE0054B83F = {
 			isa = PBXGroup;
 			children = (
@@ -80,7 +91,7 @@
 				B473966B2A59708D00E95EB8 /* roundedRectangle.swift */,
 				B4F769372A5D18CD00F66D26 /* MovableGrids.swift */,
 				B4E2A8B92A610669006534D1 /* MoveRect.swift */,
-				B45A01432A664AB2001CBCFB /* Pomodoro.swift */,
+				B425A3502A7A947E00D59523 /* Pomodoro */,
 				B4F7693B2A5EA87000F66D26 /* 100Note */,
 				B4672B232A13C2DF0054B83F /* Assets.xcassets */,
 				B4672B252A13C2DF0054B83F /* SwiftUITutorials.entitlements */,
@@ -181,13 +192,14 @@
 				B473966C2A59708D00E95EB8 /* roundedRectangle.swift in Sources */,
 				B4F7693D2A5EB56800F66D26 /* GoalViewModel.swift in Sources */,
 				B4CA4C462A48653D00F3583B /* GeometryReadermidx.swift in Sources */,
-				B45A01442A664AB2001CBCFB /* Pomodoro.swift in Sources */,
+				B425A34D2A7A8E2900D59523 /* Pomodoro.swift in Sources */,
 				B4F7693F2A5EB59A00F66D26 /* goal.swift in Sources */,
 				B4F7693A2A5EA80900F66D26 /* NoteUI.swift in Sources */,
 				B4672B202A13C2DE0054B83F /* SwiftUITutorialsApp.swift in Sources */,
 				B4E2A8BA2A610669006534D1 /* MoveRect.swift in Sources */,
 				B4F8ED652A51CB4900AC8B75 /* MultipleSheets.swift in Sources */,
 				B4F769382A5D18CD00F66D26 /* MovableGrids.swift in Sources */,
+				B425A34F2A7A93D200D59523 /* FastingManager.swift in Sources */,
 				B434FC252A49C7AE00DFD52A /* CardComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
